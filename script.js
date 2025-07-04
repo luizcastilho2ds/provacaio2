@@ -21,8 +21,13 @@ function cadastro() {
     idade = Number(window.prompt('Digite sua idade '));
     mostraresultado.innerHTML +=`<p>${jogadores}, ${idade}</p>`
 
-     if(media >=15){
-          alert("A media é maior que 15 seu time nao pode participar!")
-     }
+      if (idade >= 15) {
+          alert("A media de idade do seu time é maior que 15 anos")
+          alert("Cadastre um time válido!!!")
+      }
+      if (time >= 5) {
+          alert("bla")
+      
+      }
 
 }
